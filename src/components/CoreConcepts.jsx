@@ -29,7 +29,7 @@ export default function CoreConcepts() {
 
           {/* .map questo funziona come un ciclo v-for di vue.js */}
           {CORE_CONCEPTS.map((item)=> (<CoreConcept key={item.title} {...item} /> ))}
-          {exercise.map((item)=> <CourseGoal key={item.title} {...item} />)} 
+          {/* {exercise.map((item)=> <CourseGoal key={item.title} {...item} />)}  */}
           {/* ************************************ */}
             
         </ul>
